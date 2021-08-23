@@ -1,0 +1,136 @@
+.container {
+  border: 2px solid black;
+  background-color: #fdf4f2;
+}
+header {
+  border: 1px solid black;
+  height: 65px;
+}
+a {
+  color: #000;
+}
+.head {
+  padding-left: 450px;
+}
+nav {
+  height: 25px;
+  padding-top: 10px;
+}
+a {
+  font-size: larger;
+  padding-left: 30px;
+}
+.block-item {
+  border: 1px solid black;
+  padding-left: 15px;
+}
+table {
+  border: 1px solid black;
+}
+.logo {
+  height: 65px;
+  width: 400px;
+}
+.demo {
+  height: 200px;
+  width: 300px;
+  padding-left: 120px;
+}
+
+/* Responsive part */
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones:  */
+  body {
+    width: 100%;
+    height: auto;
+  }
+  .logo {
+    width: 35%;
+  }
+  .head {
+    padding-left: 130px;
+    font-size: smaller;
+  }
+  h1 {
+    font-size: large;
+  }
+  nav {
+    width: 100%;
+    font-size: 10px;
+  }
+  p {
+    font-size: small;
+  }
+  table {
+    width: 90%;
+  }
+  .demo {
+    width: 90%;
+    padding-left: 2px;
+  }
+}
+
+/* @media only screen and (max-width: 1024px) {
+    For desktop:
+    body {
+      width: 100%;
+      height: auto;
+    }
+    .logo {
+      width: 35%;
+    }
+    .head {
+      padding-left: 500px;
+      font-size: 25px;
+    }
+    h1{
+      font-size: 28px;
+    }
+    nav {
+      width: 100%;
+      font-size: 17px;
+    }
+    p {
+      font-size: 20px;
+    }
+    table {
+      width: 90%;
+    }
+    .demo {
+      width: 50%;
+      padding-left: 2px;
+    }
+}  */
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  body {
+    width: 100%;
+    height: auto;
+  }
+  .logo {
+    width: 35%;
+  }
+  .head {
+    padding-left: 280px;
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  nav {
+    width: 100%;
+    font-size: 17px;
+  }
+  p {
+    font-size: 20px;
+  }
+  table {
+    width: 90%;
+  }
+  .demo {
+    width: 50%;
+    padding-left: 2px;
+  }
+}
